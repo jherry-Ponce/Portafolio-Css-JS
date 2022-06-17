@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>JHERRY PONCE</title>
 </head>
 <style>
   
 </style>
-<body>
+<body onresize="FuntionResize()">
   
-<div class="cabecera">
+<div class="cabecera" id="home">
   <div class="first">
     <div class="firt-title">
         <h1>
@@ -31,13 +32,23 @@
         <header class="header"> 
               <nav>
                   <h2>Jherry Ponce</h2>
-                  <ul>
-                      <li>Home</li>
-                      <li>Work</li>
-                      <li>About</li>
+                  <ul class="lista">
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#skill">Skill</a></li>
+                      <li><a href="#portafolio">Work</a></li>
                   </ul>
                   <div>
-                      <button>Connectar</button>
+                      <button>Connect</button>
+                  </div>
+                  <div class="burguer">
+                    <i class="fa-solid fa-bars"></i>
+                  </div>
+                  <div class="menu-responsive">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#portafolio">Work</a></li>
+                    </ul>
                   </div>
               </nav>
         </header>
@@ -49,9 +60,9 @@
         <div class="second-footer">
               <nav>
                   <ul>
-                      <li><a href="https://www.facebook.com/jherry.ponce"> Facebook</a></li>
-                      <li><a href="https://www.linkedin.com/in/jherry-alexis-p-23476399/"> Linkdln</a></li>
-                      <li><a href="https://github.com/jherry-Ponce"> Github</a></li>
+                      <li><a target="_blank" href="https://www.facebook.com/jherry.ponce"> Facebook</a></li>
+                      <li><a target="_blank" href="https://www.linkedin.com/in/jherry-alexis-p-23476399/"> Linkdln</a></li>
+                      <li><a target="_blank" href="https://github.com/jherry-Ponce"> Github</a></li>
                   </ul>
               </nav>  
           </div>
@@ -87,7 +98,7 @@
             </p>
         </div>           
     </section> 
-    <div class="banner-four">
+    <div id="skill" class="banner-four">
       <h3>Skill</h3>
       <div class="part-circle container">
           <div class="part-circle-skill">
@@ -218,15 +229,12 @@
                           </div>
                       </did>
                   </figure>
-                  
-                  
-                 
               </figure>
           </div>
       </div>
       
   </div>
-  <div class="portafolio" >
+  <div id="portafolio" class="portafolio" >
           <h3>PORTAFOLIO</h3>
           <div class="contenedor-portafolio">
               <div class="portafolio-item">
