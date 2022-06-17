@@ -514,4 +514,8 @@ footer{
     .banner-thir h2{
        margin-top: 1em;
     }
+    .form-item,.btn{
+        width: 97%;
+    }
+    
   }
