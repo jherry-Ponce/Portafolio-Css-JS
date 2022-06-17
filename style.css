@@ -506,6 +506,10 @@ footer{
     .part-circle-skill{
        display: none;
     }
+    /* contacto */
+    .form-item,.btn{
+        width: 97%;
+    }
   }
   @media (max-width: 495px) {
     .banner-thir{
@@ -513,9 +517,6 @@ footer{
     }
     .banner-thir h2{
        margin-top: 1em;
-    }
-    .form-item,.btn{
-        width: 97%;
     }
     
   }
