@@ -444,7 +444,7 @@ footer{
     overflow: hidden;
   }
 .texto-animado-dos {
-    animation: texto-animado-dos 5s steps(144) 4s infinite both,
+    animation: texto-animado-dos 5s steps(144) 1s infinite both,
       cursor 0.5s steps(50) infinite normal;
   }
   @keyframes texto-animado-dos {
